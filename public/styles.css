@@ -50,16 +50,18 @@
     -webkit-overflow-scrolling: touch;
 }
     
-body {
+.mainbody {
     height: 100%;
+    background-color: #31112C;
+    display: flex;
   }
   
   body {
-    display: flex;
+    
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #fff;
+    
   }
   
   .form-signin {
@@ -103,3 +105,48 @@ body {
      
     
   } 
+
+  .title{
+    color: #F2A07B;
+    font-size: 1.5rem;
+  }
+
+  .inp{
+    background-color:#FBDCC4;
+  }
+
+  .btnclr{
+    color:#fff;
+    background-color: #7D0633;
+  }
+
+  .btnclr:hover{
+    color:#fff;
+   background-color: #F2A07B; 
+  }
+
+  .display-4 {
+    color: #F2A07B;
+    font-size: 3rem;
+  }
+
+
+  .lead{
+    color: #F2A07B;
+    font-size: 2rem;
+  }
+
+  .fdisplay-4 {
+    color: #7D0633;
+    font-size: 3rem;
+  }
+
+
+  .flead{
+    color: #7D0633;
+    font-size: 2rem;
+  }
+
+  .sucfail{
+    text-align: center;
+  }
